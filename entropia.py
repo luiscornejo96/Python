@@ -11,7 +11,7 @@ while True:
     linea =  linea.split(',')
     linea = linea[3]
     """ if j > 5:
-        break
+        break∫
     j += 1 """
     try:
         aeropuertos[linea] += 1

@@ -148,6 +148,8 @@ venv.bak/
 /site
 .vscode
 *.csv
+*.xml
+*.xmls
 
 # mypy
 .mypy_cache/

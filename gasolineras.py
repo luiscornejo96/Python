@@ -9,7 +9,7 @@ for item in doc['places']['place']:
     X = float(item['location']['x'])
     Y = float(item['location']['y'])
     if X < -80 and Y > 0:
-        plt.scatter(X, Y, c='B')
+        plt.scatter(X, Y, c='G',s = 2)
     j += 1
     if j > 9000:
         break
