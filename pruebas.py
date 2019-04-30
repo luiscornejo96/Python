@@ -1,8 +1,4 @@
-import xmltodict
-
-with open('./prueba.xml') as fd:
-    doc = xmltodict.parse(fd.read())
-print(doc['mydocument']['@has'])
-print(doc['mydocument']['and']['many'][0])
-print(doc['mydocument']['plus']['@a'])
-print(doc['mydocument']['plus']['#text'])
+personas = {'andres':{'color':[],'edad': [2,3,4]}}
+personas['andres']['color'].append(2)
+for item in personas:
+    print (personas[item])
