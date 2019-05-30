@@ -150,6 +150,8 @@ venv.bak/
 *.csv
 *.xml
 *.xmls
+*.txt
+*.pdf
 
 # mypy
 .mypy_cache/
